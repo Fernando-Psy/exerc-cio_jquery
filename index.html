@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lista do dia</h1>
+        <form id="task-form">
+            <div class="form-group">
+                <input type="text" class="form-control" id="task-input" placeholder="Digite a tarefa">
+            </div>
+            <!--<div class="form-group">
+                <input type="time" class="form-control" id="task-time">
+            </div>-->
+            <button type="submit" class="btn btn-primary">Adicionar</button>
+        </form>
+        <ul class="task-list" id="task-list">
+            <h4>Tarefas</h4>
+        <!-- Aqui serão adicionadas as tarefas -->
+        </ul>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--  JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>

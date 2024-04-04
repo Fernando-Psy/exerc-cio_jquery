@@ -1,0 +1,27 @@
+/* Estilos personalizados */
+body {
+    background-color: #c8b091;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.task-list {
+    list-style-type: none;
+    padding: 0;
+    padding-top: 32px;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.task-list li.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
